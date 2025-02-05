@@ -1,1 +1,4 @@
 shaijuapp1/AppWeb
+
+
+http://127.0.0.1:8000/api/stock/nasdaq/AMZN/
