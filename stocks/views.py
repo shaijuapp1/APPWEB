@@ -9,6 +9,9 @@ from forex_python.converter import CurrencyRates
 from bs4 import BeautifulSoup
 from forex_python.converter import CurrencyRates
 
+@api_view(['GET'])
+def test_req(request):
+    return Response("Testres")
 
 # Method to get mutual fund NAV
 @api_view(['GET'])
